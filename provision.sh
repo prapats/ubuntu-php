@@ -29,6 +29,9 @@ npm install -g yarn
 # Install SQLite
 apt-get install -y sqlite3 libsqlite3-dev
 
+# Install libssl
+apt-get install -y libssl1.0.0=1.0.2g-1ubuntu4 libssl-dev=1.0.2g-1ubuntu4 --allow-downgrades
+
 # PDF
 apt-get install -y --allow-unauthenticated libgtk2.0-0 libgdk-pixbuf2.0-0 libfontconfig1 libxrender1 libx11-6 libglib2.0-0 \
 libxft2 libfreetype6 libc6 zlib1g libpng12-0 libstdc++6-4.8-dbg-arm64-cross libgcc1
